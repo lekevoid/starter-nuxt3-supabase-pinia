@@ -6,3 +6,4 @@ node_modules
 .output
 .env
 dist
+google_cloud_console_0auth.json

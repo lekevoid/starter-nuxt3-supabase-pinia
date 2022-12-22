@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--bg: #333;
+	}
+}
+
+body {
+	background: var(--bg);
+	color: #fff;
+}
+
+body * {
+	box-sizing: border-box;
+	position: relative;
+}
