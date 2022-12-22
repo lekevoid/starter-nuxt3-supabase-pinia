@@ -11,9 +11,4 @@ definePageMeta({
 });
 </script>
 
-<style>
-.textarea_json {
-	white-space: pre;
-	height: 60vh;
-}
-</style>
+<style></style>

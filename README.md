@@ -1,20 +1,27 @@
-# Nuxt 3 Minimal Starter
+# LeKevoid's Nuxt 3 Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## What this starter contains
+
+-   Nuxt 3
+-   Pinia
+-   Supabase with Google Auth
+-   Tailwind
+-   SASS
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
+```
 
-# pnpm
-pnpm install --shamefully-hoist
+Create a .env file with, at minimum :
+
+```bash
+SITE_URL="http://localhost:3000"
+SUPABASE_URL="https://<supabase_id>.supabase.co"
+SUPABASE_KEY="<supabase_key>"
 ```
 
 ## Development Server
@@ -39,4 +46,10 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Documentations
+
+[Nuxt 3 Directory Structure](https://nuxtjs.org/docs/directory-structure/pages)
+
+[Supabase](https://supabase.com/docs)
+
+[Supabase Auth with Google](https://supabase.com/docs/guides/auth/social-login/auth-google)
